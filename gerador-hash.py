@@ -13,16 +13,16 @@ ESCOLHA O TIPO DE HASH:
 Digite o número do hash a ser gerado: '''))
 
 if menu == 1:
-    result = hashlib.md5(string.encode('utf-8'))
-    print('O hash MD5 da string é: ', result.hexdigest())
+    resultado = hashlib.md5(string.encode('utf-8'))
+    print('O hash MD5 da string é: ', resultado.hexdigest())
 elif menu == 2:
-    result = hashlib.sha1(string.encode('utf-8'))
-    print('O hash SHA1 da string é: ', result.hexdigest())
+    resultado = hashlib.sha1(string.encode('utf-8'))
+    print('O hash SHA1 da string é: ', resultado.hexdigest())
 elif menu == 3:
-    result = hashlib.sha256(string.encode('utf-8'))
-    print('O hash SHA256 da string é: ', result.hexdigest())
+    resultado = hashlib.sha256(string.encode('utf-8'))
+    print('O hash SHA256 da string é: ', resultado.hexdigest())
 elif menu == 4:
-    result = hashlib.sha512(string.encode('utf-8'))
-    print('O hash SHA512 da string é: ', result.hexdigest())
+    resultado = hashlib.sha512(string.encode('utf-8'))
+    print('O hash SHA512 da string é: ', resultado.hexdigest())
 else:
     print('Algo deu errado. Tente novamente!')
