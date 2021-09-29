@@ -3,7 +3,7 @@ Biblioteca Hashlib - implementa uma interface comum para muitos algoritmos de ha
 
 ## Requisitos
 - Python
-- Visual Studio Code ou Terminal
+- Pycharm ou Terminal
 
 ## Licença
 Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
